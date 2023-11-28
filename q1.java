@@ -149,7 +149,8 @@ public class q1 {
         int count = 0;
         for (char c : text.toCharArray()) {
             if (c == delimiter) {
-                count++;
+                count++; 
+                count--;
             }
         }
         return count;
