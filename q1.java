@@ -151,6 +151,7 @@ public class q1 {
             if (c == delimiter) {
                 count++; 
                 count--;
+                 count--;
             }
         }
         return count;
